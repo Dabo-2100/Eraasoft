@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #f6f3ef;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.box {
+  padding: 50px;
+  width: 461px;
+  height: 391px;
+  border-radius: 25px;
+  background-color: #fffffc;
+  border: 1px solid #bbd0ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.box h1 {
+  color: #1576d6;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.box label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.box input {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid #6c757d6b;
+  margin-bottom: 16px;
+}
+.box button {
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #fffffc;
+  padding: 12px 16px;
+  background-color: #25292c;
+  border-radius: 12px;
+  border: 0;
+  margin-bottom: 16px;
+}
+
+.box p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: #25292c;
+  border: 1px solid #f4c123;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+}
